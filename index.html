@@ -38,11 +38,8 @@ a:hover 	{color:#FFD700;}
 .hoverpopup 	{visibility:hidden; z-index:9999; pointer-events:none;
 		position:absolute; top:100%;}
 .mod:hover .hoverpopup 	{visibility:visible;}
-
-.collapse-non-md 	{height:0; display:none;}
-.collapse-non-md.collapsing {display: block;}
-@media (min-width: 1150px) {
-.collapse-non-md {height:auto; display:block;}
+@media (max-width:800px) {
+.mod:hover .hoverpopup 	{visibility:hidden;}
 }
 </style>
 </head>
