@@ -100,6 +100,7 @@
 				visibility: hidden; z-index: 9999; pointer-events: none;
 				position: absolute; top: 100%;}
 			.mod:hover .hoverpopup 	{visibility: visible;}
+			tr.row td {border-top: 1px solid black;}
 			@media (max-width: 800px) {
 				.mod:hover .hoverpopup 	{visibility: hidden;}
 			}
@@ -224,36 +225,20 @@
 			<div style="padding-left:20px">
 				<f3>Coursera, Online Courses</f3><br>
 				<a style="color: black" href="https://www.coursera.org/user/83789311d9e1811d14aa5fe139b5c6c6" target="_blank">
-					62 Courses and 7 Specializations done to date, view my profile here<br>
-					Interested in courses related to artificial intelligence, big data, data science, coding best practices (Python, R, SQL, Java), natural language processing, security, etc.
+					64 Courses and 7 Specializations done to date, view my profile here<br>
+					Interested in courses related to artificial intelligence, big data, coding best practices (Python, R, SQL, Java), data science (NLP), security, etc.
 				</a><br><br>
-				<table style="border-spacing: 5px">
+				<table style="border-spacing: 5px;">
 					<tr>
+						<th>Topic</th>
+						<th style="padding-left: 50px"></th>
 						<th>Course</th>
 						<th style="padding-left: 50px"></th>
 						<th>Organization</th>
 					</tr>
-					<tr>
-						<td><a style="color:#000" href="https://www.coursera.org/account/accomplishments/specialization/FDRGRPX3CC4W" target="_blank">
-							Introduction to Scripting in Python (<b>4-course specialization</b>)</a></td><td></td>
-						<td>Rice University</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/BHPET73W22AL" target="_blank">
-							Python for Everybody (<b>5-course specialization</b>)</a></td><td></td>
-						<td>University of Michigan</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/FZTSGNFCHZAL" target="_blank">
-							Applied Data Science with Python (<b>5-course specialization</b>)</a></td><td></td>
-						<td>University of Michigan</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/63LDWB945XDM" target="_blank">
-							Advanced Business Analytics (<b>5-course specialization</b>)</a></td><td></td>
-						<td>University of Colorado Boulder</td>
-					</tr>
-					<tr>
+					<tr class="row">
+						<td rowspan="7">Artificial Intelligence</td>
+						<td rowspan="7"></td>
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/JNXU8C3XNHHF" target="_blank">
 							Deep Learning (<b>5-course specialization</b>)</a></td><td></td>
 						<td>deeplearning.ai</td>
@@ -264,16 +249,35 @@
 						<td>deeplearning.ai</td>
 					</tr>
 					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/J7JAH5BYRPWF" target="_blank">
-							Java Programming and Software Engineering Fundamentals (<b>5-course specialization</b>)</a></td><td></td>
-						<td>Duke University</td>
-					</tr>
-					<tr>
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/8R3E3SA7FZVQ" target="_blank">
 							AI for Everyone</a></td><td></td>
 						<td>deeplearning.ai</td>
-					</tr>						
+					</tr>
 					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/984GCLL5LGQA" target="_blank">
+							Natural Language Processing</a></td><td></td>
+						<td>National Research University Higher School of Economics</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/BHVBXE6YU98D" target="_blank">
+							Sentiment Analysis with Deep Learning using BERT</a></td><td></td>
+						<td>Coursera Project Network</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/BGN9GTRC9V6H" target="_blank">
+							Named Entity Recognition using LSTMs with Keras</a></td><td></td>
+						<td>Coursera Project Network</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/8KNJZPFUSD9Y" target="_blank">
+							Anomaly Detection in Time Series Data with Keras</a></td><td></td>
+						<td>Coursera Project Network</td>
+					</tr>
+
+
+					<tr class="row">
+						<td rowspan="6">Big Data</td>
+						<td rowspan="6"></td>
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/YMSL632YH4GB" target="_blank">
 							Introduction to Big Data</a></td><td></td>
 						<td>University of California San Diego</td>
@@ -303,6 +307,25 @@
 							Big Data Applications: Real-Time Streaming</a></td><td></td>
 						<td>Yandex</td>
 					</tr>
+
+
+					<tr class="row">
+						<td rowspan="11">Coding Best Practices</td>
+						<td rowspan="11"></td>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/BHPET73W22AL" target="_blank">
+							Python for Everybody (<b>5-course specialization</b>)</a></td><td></td>
+						<td>University of Michigan</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000" href="https://www.coursera.org/account/accomplishments/specialization/FDRGRPX3CC4W" target="_blank">
+							Introduction to Scripting in Python (<b>4-course specialization</b>)</a></td><td></td>
+						<td>Rice University</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/J7JAH5BYRPWF" target="_blank">
+							Java Programming and Software Engineering Fundamentals (<b>5-course specialization</b>)</a></td><td></td>
+						<td>Duke University</td>
+					</tr>
 					<tr>
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/RG9KZL4SNSLJ" target="_blank">
 							R Programming</a></td><td></td>
@@ -324,6 +347,40 @@
 						<td>University of California, Davis</td>
 					</tr>
 					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/M82E582ACQSU" target="_blank">
+							Introduction to Bash Shell Scripting</a></td><td></td>
+						<td>Coursera Project Network</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/JQ7DHDFPLRAP" target="_blank">
+							The Unix Workbench</a></td><td></td>
+						<td>Johns Hopkins University</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/UGAJSYWP9J3J" target="_blank">
+							Version Control with Git</a></td><td></td>
+						<td>Atlassian</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/ZX2KU2T5MBFD" target="_blank">
+							Software Architecture</a></td><td></td>
+						<td>University of Alberta</td>
+					</tr>
+
+
+					<tr class="row">
+						<td rowspan="11">Data Science</td>
+						<td rowspan="11"></td>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/FZTSGNFCHZAL" target="_blank">
+							Applied Data Science with Python (<b>5-course specialization</b>)</a></td><td></td>
+						<td>University of Michigan</td>
+					</tr>
+					<tr>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/specialization/63LDWB945XDM" target="_blank">
+							Advanced Business Analytics (<b>5-course specialization</b>)</a></td><td></td>
+						<td>University of Colorado Boulder</td>
+					</tr>
+					<tr>
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/2GBB94PQRLQV" target="_blank">
 							An Intuitive Introduction to Probability</a></td><td></td>
 						<td>Univerity of Zurich</td>
@@ -342,31 +399,6 @@
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/CUDYXQ7BXVE8" target="_blank">
 							Improving Your Statistical Inferences</a></td><td></td>
 						<td>Eindhoven University of Technology</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/JQ7DHDFPLRAP" target="_blank">
-							The Unix Workbench</a></td><td></td>
-						<td>Johns Hopkins University</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/UGAJSYWP9J3J" target="_blank">
-							Version Control with Git</a></td><td></td>
-						<td>Atlassian</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/ZX2KU2T5MBFD" target="_blank">
-							Software Architecture</a></td><td></td>
-						<td>University of Alberta</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/R973H9L4BS8C" target="_blank">
-							Usable Security</a></td><td></td>
-						<td>University of Maryland, College Park</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/9MXT3LEYCL2Q" target="_blank">
-							Software Security</a></td><td></td>
-						<td>University of Maryland, College Park</td>
 					</tr>
 					<tr>
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/ST38U6379NSN" target="_blank">
@@ -393,30 +425,19 @@
 							Practical Time Series Analysis</a></td><td></td>
 						<td>The State University of New York</td>
 					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/8KNJZPFUSD9Y" target="_blank">
-							Anomaly Detection in Time Series Data with Keras</a></td><td></td>
-						<td>Coursera Project Network</td>
+
+
+					<tr class="row">
+						<td rowspan="3">Others</td>
+						<td rowspan="3"></td>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/R973H9L4BS8C" target="_blank">
+							Usable Security</a></td><td></td>
+						<td>University of Maryland, College Park</td>
 					</tr>
 					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/984GCLL5LGQA" target="_blank">
-							Natural Language Processing</a></td><td></td>
-						<td>National Research University Higher School of Economics</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/BHVBXE6YU98D" target="_blank">
-							Sentiment Analysis with Deep Learning using BERT</a></td><td></td>
-						<td>Coursera Project Network</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/BGN9GTRC9V6H" target="_blank">
-							Named Entity Recognition using LSTMs with Keras</a></td><td></td>
-						<td>Coursera Project Network</td>
-					</tr>
-					<tr>
-						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/M82E582ACQSU" target="_blank">
-							Introduction to Bash Shell Scripting</a></td><td></td>
-						<td>Coursera Project Network</td>
+						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/9MXT3LEYCL2Q" target="_blank">
+							Software Security</a></td><td></td>
+						<td>University of Maryland, College Park</td>
 					</tr>
 					<tr>
 						<td><a style="color:#000;" href="https://www.coursera.org/account/accomplishments/certificate/VHQQXQ76SHP5" target="_blank">
@@ -433,17 +454,27 @@
 				14 Courses done to date<br><br>
 				<table style="border-spacing: 5px">
 					<tr>
+						<th>Topic</th>
+						<th style="padding-left: 50px"></th>
 						<th>Course</th>
 						<th style="padding-left: 50px"></th>
 						<th>Type</th>
 					</tr>
-					<tr>
+					<tr class="row">
+						<td rowspan="2">Artificial Intelligence</td>
+						<td rowspan="2"></td>
 						<td>Machine Learning Fundamentals with Python (<b>4-course track</b>)</td><td></td>
 						<td>Track</td>
 					</tr>
 					<tr>
-						<td>Coding Best Practices with Python (<b>7-course track</b>)</td><td></td>
+						<td>Introduction to Deep Learning in Python</td><td></td>
 						<td>Course</td>
+					</tr>
+					<tr class="row">
+						<td rowspan="3">Coding Best Practices</td>
+						<td rowspan="3"></td>
+						<td>Coding Best Practices with Python (<b>7-course track</b>)</td><td></td>
+						<td>Track</td>
 					</tr>
 					<tr>
 						<td>Feature Engineering with PySpark</td><td></td>
@@ -451,10 +482,6 @@
 					</tr>
 					<tr>
 						<td>Introduction to PySpark</td><td></td>
-						<td>Course</td>
-					</tr>
-					<tr>
-						<td>Introduction to Deep Learning in Python</td><td></td>
 						<td>Course</td>
 					</tr>
 					<tr>
